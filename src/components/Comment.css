@@ -1,0 +1,32 @@
+.UserInfo img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+.Container {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.Comment {
+  background-color: aqua;
+}
+/* .Comment-second {
+  background-color: bisque;
+} */
+
+
+
+.comment-second {
+  background-color: pink;
+}
+.Comment-text {
+  width: 220px;
+  height: 160px;
+  background: linear-gradient(white, green);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
