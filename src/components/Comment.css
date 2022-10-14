@@ -3,6 +3,12 @@
   width: 130px;
   height: 130px;
 }
+.UserInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Container {
   width: 200px;
   margin: 0 auto;

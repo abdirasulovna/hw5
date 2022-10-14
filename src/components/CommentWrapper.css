@@ -9,4 +9,8 @@
   background: linear-gradient(90deg,rgb(223, 8, 144), green);
   width: 220px;
   height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

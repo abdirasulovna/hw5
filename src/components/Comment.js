@@ -6,12 +6,12 @@ import CommentWrapper from "./CommentWrapper";
 function Comment(props) {
   return (
     <div className="Container">
-      <CommentWrapper className="comment-first" />
+      <CommentWrapper className="comment-first">
       <CommentUserInfo
         avatarUrl={props.data.author.avatarUrl}
         name={props.data.author.name}
       />
-      <CommentWrapper />
+      </CommentWrapper>
       <CommentWrapper className="comment-first">
         <div className="Comment-text">
           {props.data.text}
