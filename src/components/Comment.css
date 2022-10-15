@@ -2,37 +2,36 @@
   border-radius: 50%;
   width: 130px;
   height: 130px;
+  flex-direction: column;
 }
 .UserInfo {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+
 }
 
 .Container {
-  width: 200px;
+  width: 75px;
+  height: 350px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+ padding-top: 20px;
 }
 
 .Comment {
   background-color: aqua;
 }
-/* .Comment-second {
-  background-color: bisque;
-} */
 
-
-
-.comment-second {
-  background-color: pink;
-}
 .Comment-text {
-  width: 220px;
-  height: 160px;
-  background: linear-gradient(white, green);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 200px;
+  height: 150px;
+  background-color: burlywood;
+ text-align: center;
+ font-size: 20px;
+ flex-direction: column;
+ color: black;
 }
